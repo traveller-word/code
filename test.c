@@ -1,14 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <errno.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <sys/time.h>
-#include <string.h>
-#include <pthread.h>
 
 typedef struct _value {
 		int *tmp;
